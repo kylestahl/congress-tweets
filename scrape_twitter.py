@@ -5,10 +5,10 @@ from bs4 import BeautifulSoup
 import urllib2
 
 ## Access Twitter API
-consumer_key = 'Y7IZ3jKPtwklV71Z7w6YiRnEO'
-consumer_secret = '4HaNXfnpAyQHxvG8qYRHIW8WA8PIO9J9rXeQmp5VW3Q6WeCAs6'
-access_token = '343387964-GAZq8gdwZ5FC7CXRv02WAfv8Fk1h8EIO7LVFPNjS'
-access_token_secret = 'eRdg81dkV7on4vJdix0nzGERJLtKS1hT0p4oVye1mQQBf'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
