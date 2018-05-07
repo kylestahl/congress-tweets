@@ -2,11 +2,9 @@
 Here we can in the tweets that were pickled and run LDA with Scikit Learn
 We use NLTK to either stem or lemmatize the words in the tweets
 
-I am still trying to figure out which is best and what the best
-parameters for min_df and max_df are.
+I am still trying to figure out which preprocessing is best and what the best
+parameters for n_componenets, min_df, and max_df are.
 """
-
-
 
 import pickle
 import pandas as pd
@@ -14,6 +12,7 @@ import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import LatentDirichletAllocation
 
+tweet_list = pickle.load(open('tweets.pkl', 'rb'))
 
 
 def stem(s):
