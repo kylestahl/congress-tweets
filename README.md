@@ -1,2 +1,2 @@
 # Analysis of Congress's Tweets
-LDA on tweets by 115th Congress in 2018
+The goal of this project is to use the twitter API to grab the tweets of all the United States congress people, preform Latent Dirichlet Allocation on them to cluster the tweets into different topics. If the LDA gives some distinct topic groupings for the tweets, the next step will be to visualize the results over time by state, political party, chamber, person, etc.
